@@ -4,6 +4,13 @@
 
 This project explores a dual-layer architecture for automated object sorting, combining computer vision (MPU layer) with embedded sorting logic (MCU layer). The goal is to detect objects in real time using YOLOv8 and trigger corresponding bin-sorting commands on an ESP32 microcontroller.
 
+
+## Demo Video
+
+Watch the project demonstration here:
+
+https://youtu.be/zi46_8IATMc
+
 > **Development Note:** This project is currently developed and validated entirely in software. The MPU layer runs on a Windows laptop (in place of a Raspberry Pi), using a webcam for live object detection. The MCU layer runs in the Wokwi ESP32 simulator (in place of physical ESP32 hardware). No physical Raspberry Pi or ESP32 has been used yet.
 
 ---
